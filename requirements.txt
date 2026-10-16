@@ -1,0 +1,24 @@
+# User interface
+streamlit
+
+# Runnable chains, prompts and output parsers
+langchain-core
+
+# PDF loader and text splitting
+langchain-community
+langchain-text-splitters
+pypdf
+
+# Local embedding model
+langchain-huggingface
+sentence-transformers
+
+# Chroma vector database
+langchain-chroma
+chromadb
+
+# Groq LLM integration
+langchain-groq
+
+# Environment variables
+python-dotenv

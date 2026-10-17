@@ -1,0 +1,1 @@
+from pdfquery.config import embedding_model, CHROMA_DIR, retrieval_k

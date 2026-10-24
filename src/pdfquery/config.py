@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 # Project root: pdfquery/
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parents[2]
 
 # Load API keys from the project's .env file
 load_dotenv(BASE_DIR / ".env")

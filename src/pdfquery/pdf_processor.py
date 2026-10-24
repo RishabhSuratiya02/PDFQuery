@@ -4,7 +4,7 @@ from langchain_core.documents import Document
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from pdfquery.config import chunk_size, chunk_overlap
+from .config import chunk_size, chunk_overlap
 
 def process_pdf(pdf_path: str | Path) -> list[Document]:
     path = Path(pdf_path).expanduser().resolve()
